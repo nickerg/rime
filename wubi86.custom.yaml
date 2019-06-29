@@ -1,0 +1,12 @@
+#wubi86.custom.yaml
+patch:
+  #符号自定义
+  # 引用 `symbols` 文件里面的符号
+  #'punctuator/import_preset': symbols
+  'punctuator/import_preset': symbols.custom
+  'recognizer/patterns/punct': "^/([a-z]+|[0-9])$"
+#__patch:
+# Rx: emoji:customize:schema=wubi86 {
+#  - patch/+:
+#      __include: emoji_suggestion:/patch
+# }
