@@ -1,3 +1,7 @@
+build/
+luna_pinyin.userdb/
+terra_pinyin.userdb/
+wubi86.userdb/
 build/wubi86.table.bin
 build/bopomofo.prism.bin
 build/bopomofo.schema.yaml
@@ -59,3 +63,4 @@ wubi86.userdb/LOCK
 wubi86.userdb/LOG
 wubi86.userdb/LOG.old
 wubi86.userdb/MANIFEST-000219
+wubi86.userdb/000222.sst
